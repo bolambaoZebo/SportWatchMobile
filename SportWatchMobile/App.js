@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 
 import sportsReducer from './src/store/reducers/sports';
 import { SafeAreaView, Text } from 'react-native';
-import LoginScreen from './src/screen/LoginScreen';
+import LoginScreen from './src/screen/user/LoginScreen';
 
 const rootReducer = combineReducers({
   sports: sportsReducer
